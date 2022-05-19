@@ -8,7 +8,7 @@
         src: /tmp/demo.txt
         dest: /tmp
 #### create a folder or file
-    - name: Create a new file
+    - name: Create a new directory
       file:
         path: /tmp/newfolder
         state: directory
